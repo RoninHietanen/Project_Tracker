@@ -1,0 +1,67 @@
+:root {
+  --green: #29b965;
+  --lGreen: #34db87;
+  --white: white;
+  --dGreen: #2c503e;
+  --red: #e73c3c;
+}
+
+body {
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: 400;
+  background-color: var(--white);
+  color: var(--dGreen);
+  display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+thead {
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.custom-card .card-header,
+.custom-card .card-footer,
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+  background-color: var(--dGreen);
+  color: var(--white);
+}
+
+.custom-card {
+  border-color: var(--dGreen);
+}
+
+.custom-card .card-body,
+.custom-modal .modal-body {
+  background-color: var(--white);
+  color: var(--dGreen);
+}
+
+.custom-btn {
+  background-color: var(--white);
+  color: var(--dGreen);
+}
+
+.custom-btn:hover {
+  background-color: var(--lGreen);
+  color: var(--dGreen);
+}
+
+.custom-table tbody {
+  background-color: var(--dGreen);
+  color: var(--white);
+}
+
+.delete-project-btn {
+  cursor: pointer;
+}
